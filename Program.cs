@@ -9,18 +9,14 @@ public static class Sort
             var mas = new int[] {1,2,3,4,5,7,2,10,5};
             
             for (int i = 0; i < mas.Length; i++)
-            {
                 Console.Write(mas[i] + " ");
-            }
-            
+
             Console.WriteLine();
             
             var mas1 = BinaryInsortionSort(mas);
 
             for (int i = 0; i < mas1.Length; i++)
-            {
                 Console.Write(mas1[i] + " ");
-            }
         }
         
         public static int[] BinaryInsortionSort(int[] mas)
