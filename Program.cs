@@ -23,7 +23,7 @@ public static class Sort
             var iter = 0;
             
             time.Start();
-            for (int i = 0; i < mas.Length; i++)
+            for (int i = 1; i < mas.Length; i++)
             {
                 var low = 0;
                 var high = i - 1;
